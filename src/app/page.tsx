@@ -2,7 +2,7 @@
 
 export default function Home() {
   const handleButtonClick = () => {
-    alert('Hello! You clicked the blue button!');
+    alert('Hello! You clicked the red button!');
   };
 
   return (
@@ -14,7 +14,7 @@ export default function Home() {
 
         <button
           onClick={handleButtonClick}
-          className="px-8 py-4 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 active:scale-95"
+          className="px-8 py-4 bg-red-600 hover:bg-red-700 active:bg-red-800 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-200 transform hover:scale-105 active:scale-95"
         >
           Click Me
         </button>
