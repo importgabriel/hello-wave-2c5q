@@ -2,8 +2,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "App",
-  description: "Built by Agent Switch",
+  title: "Hello World",
+  description: "A simple hello world page with a blue button",
 };
 
 export default function RootLayout({
